@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+#library-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#new-book-form {
+    margin-top: 2rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
